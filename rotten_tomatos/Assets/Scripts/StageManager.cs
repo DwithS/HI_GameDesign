@@ -32,7 +32,7 @@ public class StageManager : MonoBehaviour {
 
     IEnumerator StartCountDown()
     {
-        Text centralText = GameObject.Find("Canvas").transform.Find("Center_Text").GetComponent<Text>();
+        Text centralText = GameObject.Find("InGameUI").transform.Find("Center_Text").GetComponent<Text>();
 
         for (int f = 3; f >= 1; f -= 1)
         {
